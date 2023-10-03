@@ -12,16 +12,16 @@ const Nav = () => {
           <img src={navLogo} alt="" />
           <ul className="nav__links">
             <li>
-              <NavLink to="/">home</NavLink>
+              <NavLink className={({isActive})=> isActive ? "active" : "inactive"} to="/">home</NavLink>
             </li>
             <li>
-              <NavLink to="/notifications">notifications</NavLink>
+              <NavLink className={({isActive})=> isActive ? "active" : "inactive"} to="/notifications">notifications</NavLink>
             </li>
             <li>
-              <NavLink to="/profile">profile</NavLink>
+              <NavLink className={({isActive})=> isActive ? "active" : "inactive"} to="/profile">profile</NavLink>
             </li>
             <li>
-              <NavLink to="/support">support</NavLink>
+              <NavLink className={({isActive})=> isActive ? "active" : "inactive"} to="/support">support</NavLink>
             </li>
           </ul>
         </div>

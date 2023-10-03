@@ -16,9 +16,25 @@ nav{
                         font-size: 24px;
                         font-weight: 400;
                         text-transform: capitalize;
+                        &:hover{
+                            animation: jump 3s infinite;
+                        }
                     }
                 }
             }
         }
+    }
+}
+.active{
+    border-bottom: 4px solid #000000;
+    border-radius: 4px;
+}
+
+@keyframes jump{
+    from{
+        margin-bottom: 20px;
+    }
+    to{
+        margin-bottom: 0px;
     }
 }
