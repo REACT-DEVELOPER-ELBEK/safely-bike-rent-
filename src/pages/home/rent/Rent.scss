@@ -1,0 +1,55 @@
+.rent{
+    padding-top: 98px;
+    background: #EEEFF3;
+    .container{
+        .rent__wrapper{
+            h2{
+                color: #091F5B;
+                font-family: Helvetica;
+                font-size: 55px;
+                font-weight: 700;
+                max-width: 682px;
+            }
+            .rent__cards{
+                display: flex;
+                gap: 82px;
+                margin-top: 38px;
+                justify-content: center;
+                .rent__card{
+                    h2{
+                        color: #091F5B;
+                        font-family: Helvetica;
+                        font-size: 25px;
+                        font-weight: 700;
+                        margin-top: 23px;
+                        margin-left: 20px;
+                    }
+                    img{
+                        width: 380px;
+                        height: 380px;
+                    }
+                    p{
+                        color: #344EAD;
+                        font-family: Helvetica;
+                        font-size: 25px;
+                        font-weight: 700;
+                        margin-top: 21px;
+                        margin-left: 20px;                    
+                    }
+                    button{
+                        color: #F2F1DF;
+                        font-family: Helvetica;
+                        font-size: 19px;
+                        font-weight: 700;
+                        border-radius: 45px;
+                        background: #091F5B;
+                        padding: 13px 17px;
+                        text-transform: uppercase;
+                        margin-left: 20px;                    
+                        margin-top: 21px;
+                    }
+                }
+            }
+        }
+    }
+}

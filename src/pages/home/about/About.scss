@@ -1,0 +1,35 @@
+.about{
+    background: #EEEFF3;
+    padding-top: 123px;
+    padding-bottom: 134px;
+    .container{
+        .about__wrapper{
+            h2{
+                color: #091F5B;
+                font-family: Helvetica;
+                font-size: 55px;
+                font-weight: 700;
+            }
+            .about__cards{
+                margin-top: 100px;
+                display: flex;
+                gap: 48px;
+                .about__card{
+                    border-radius: 45px;
+                    background: #091F5B;
+                    width: 434px;
+                    height: 315px;
+                    p{
+                        color: #F2F1DF;
+                        text-align: center;
+                        font-family: Helvetica;
+                        font-size: 21px;
+                        font-weight: 400;
+                        line-height: 130%;
+                        padding: 116px 26px 37px 28px;
+                    }
+                }
+            }
+        }
+    }
+}
